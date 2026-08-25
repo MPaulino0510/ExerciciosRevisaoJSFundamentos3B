@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+function consumo(quilometros, litros){
+    return quilometros / litros;
+}
+const resultado = consumo(10, 10);
+console.log(resultado);
