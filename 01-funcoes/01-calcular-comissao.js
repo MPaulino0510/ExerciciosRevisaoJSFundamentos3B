@@ -7,9 +7,9 @@
 //
 // Escreva sua solução abaixo:
 
-    function calcularComissao(valor, porcentagem){
-        return (valor * porcentagem) / 100;
-    }
-    const resultado = calcularComissao(800, 5);
+function calcularComissao(valor, porcentagem) {
+    return (valor * porcentagem) / 100;
+}
+const resultado = calcularComissao(800, 5);
 
-    console.log(`Comissão: R$${resultado}`);
+console.log(`Comissão: R$${resultado}`);
