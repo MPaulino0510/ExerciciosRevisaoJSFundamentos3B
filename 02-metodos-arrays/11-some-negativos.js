@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const saldos = [120, 50, -20, 300, 75];
+
+const juntar = saldos.some((n) => n > 0);
+
+console.log(juntar);
