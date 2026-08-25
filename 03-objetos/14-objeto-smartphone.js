@@ -4,3 +4,10 @@
 //
 // Escreva sua solução abaixo:
 
+const smartphone = {
+    marca: "Apple",
+    modelo: "A-20",
+    armazenamento: 20,
+    ligado: false
+}
+console.log(smartphone);
