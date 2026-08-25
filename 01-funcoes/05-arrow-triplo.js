@@ -4,3 +4,7 @@
 //
 // Escreva sua solução abaixo:
 
+const recebe = (valor) => {
+    return valor * 3;
+}
+console.log(recebe(12))
