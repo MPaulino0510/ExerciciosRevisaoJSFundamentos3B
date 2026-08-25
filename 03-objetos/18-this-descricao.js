@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+const curso = {
+    nome:"Senai",
+    modalidade: "TI",
+    descrever(){
+        console.log(`O nome do curso é ${this.nome}, a modalidade é: ${this.modalidade}`);
+    }
+}
+curso.descrever();
