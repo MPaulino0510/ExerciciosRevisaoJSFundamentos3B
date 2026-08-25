@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const horas = [8, 7, 8, 6, 8];
+const totalHoras = horas.reduce((acumula, soma) => acumula + soma, 0);
+
+console.log(totalHoras);
