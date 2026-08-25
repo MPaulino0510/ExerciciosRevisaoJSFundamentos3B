@@ -4,4 +4,8 @@
 // Teste com pelo menos seis números.
 //
 // Escreva sua solução abaixo:
+function maiorNumero(...numeros) {
+  return Math.max(...numeros);
+}
 
+console.log(maiorNumero(1, 2, 3, 4, 5, 6));
