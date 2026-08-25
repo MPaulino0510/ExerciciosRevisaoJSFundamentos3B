@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const cliente = {
+    nome: "Miguel",
+    teletone: "676767-67"
+};
+const novo = {...cliente, valor: "Ouro"};
+
+console.log(novo);
