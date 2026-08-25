@@ -4,4 +4,11 @@
 // e mostre o resultado.
 //
 // Escreva sua solução abaixo:
+const objeto = {
+    codigo: 12345,
+    hospede: "Miguel",
+    numeroNoites: 5
+};
 
+const json = JSON.stringify(objeto);
+console.log(json);
