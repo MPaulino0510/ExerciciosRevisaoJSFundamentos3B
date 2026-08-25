@@ -6,3 +6,28 @@
 //
 // Escreva sua solução abaixo:
 
+class Pagamento {
+  processar() {
+    console.log("Processando pagamento genérico...");
+  }
+}
+
+class Pix extends Pagamento {
+  processar() {
+    console.log("Pagamento via Pix: Chave validada e valor transferido instantaneamente!");
+  }
+}
+
+class Cartao extends Pagamento {
+  processar() {
+    console.log("Pagamento via Cartão: Transação autorizada pela operadora do cartão!");
+  }
+}
+
+const pagamentos = [
+  new Pix(),
+  new Cartao(),
+  new Pagamento() 
+];
+
+pagamentos.forEach(pagamento => pagamento.processar());
