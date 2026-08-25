@@ -11,5 +11,5 @@ const objetos = [
 ];
 const jsonResultado = JSON.stringify(objetos);
 
-console.log(objetos);
+console.log(jsonResultado);
 
