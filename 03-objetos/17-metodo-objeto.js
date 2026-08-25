@@ -4,6 +4,6 @@
 // Mostre a área com duas casas decimais.
 //
 // Escreva sua solução abaixo:
-const raio = 2;
+const raio = 5;
 const circulo = Math.PI * raio * raio;
 console.log(circulo);

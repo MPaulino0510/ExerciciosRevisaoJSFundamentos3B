@@ -1,4 +1,4 @@
-# Atividade de Revisão - JavaScript Fundamentos 3 - Turma B
+# Atividade de Revisão - JavaScript Fundamentos 3 - Turma B - Miguel.
 
 ## Objetivo
 
