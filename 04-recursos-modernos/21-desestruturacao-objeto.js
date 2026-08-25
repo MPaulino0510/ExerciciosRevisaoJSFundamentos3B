@@ -5,3 +5,11 @@
 //
 // Escreva sua solução abaixo:
 
+const objeto = {
+    viagem: "Ceará",
+    dias: 5,
+    valor: 5000
+}
+const {viagem, dias, valor} = objeto;
+
+console.log(viagem, dias, valor);
