@@ -4,3 +4,16 @@
 //
 // Escreva sua solução abaixo:
 
+const convidados = [
+    "Miguel",
+    "Tardin",
+    "Brenda"
+];
+const amigos = [
+    "Victória",
+    "João",
+    "Andrew"
+];
+const atualizado = [...convidados, ...amigos];
+
+console.log(atualizado);
