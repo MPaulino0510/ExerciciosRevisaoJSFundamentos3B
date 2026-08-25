@@ -5,3 +5,11 @@
 //
 // Escreva sua solução abaixo:
 
+const ingresso = {
+    quantidade: 8,
+    preco: 50
+}
+console.log(ingresso);
+
+ingresso.quantidade += 2;
+console.log(ingresso);
