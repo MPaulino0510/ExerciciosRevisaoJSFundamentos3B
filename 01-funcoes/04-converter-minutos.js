@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+function Expression (minutos){
+    return minutos * 60;
+}
+const resultado = Expression(20);
+console.log(resultado);

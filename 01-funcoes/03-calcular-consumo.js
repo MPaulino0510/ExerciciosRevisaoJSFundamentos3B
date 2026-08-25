@@ -8,5 +8,5 @@
 function consumo(quilometros, litros){
     return quilometros / litros;
 }
-const resultado = consumo(10, 10);
+const resultado = consumo(100, 15);
 console.log(resultado);
